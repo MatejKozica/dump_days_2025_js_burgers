@@ -26,7 +26,7 @@ async function makeBurger(chosenBurger) {
         burgerCreationStep("Preparing vegetables..."),
     ])
 
-     await burgerCreationStep("Assembling burger...", 1000)
+    await burgerCreationStep("Assembling burger...", 1000)
 
     document.getElementById("loading").style.display = "none";
     document.getElementById(`${chosenBurger}-display`).style.display = "block";
